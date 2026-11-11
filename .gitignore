@@ -1,0 +1,54 @@
+# Build / editor output
+**/bin/
+**/obj/
+/artifacts/
+/dist/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.pdb
+*.cache
+
+# Never commit game / loader binaries or private local dependencies
+*.dll
+*.exe
+*.zip
+*.7z
+*.unitypackage
+/BepInEx/
+/Anomalith_Data/
+/vendor/
+/lib/
+
+# Private investigation, tests, acceptance evidence and historical exports
+/analysis/
+/extract/
+/data/
+/tools/
+/tests/
+/verification/
+/backups/
+/Diagnostics/
+/package/
+Manual-Acceptance*
+Test-Packaging*
+
+# User state and logs
+*.log
+*.cfg
+*.bak
+*.tmp
+*.save
+*.sav
+**/UserData/
+**/Saves/
+**/AnomalithWishlist.targets.json*
+**/runtime-status.json
+**/runtime-catalog.json
+**/last-test-grant.json
+.env
+.env.*
+.DS_Store
+Thumbs.db
